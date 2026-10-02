@@ -1,0 +1,74 @@
+# ==========================================
+# Python
+# ==========================================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+ENV/
+
+# ==========================================
+# IDE / éditeurs
+# ==========================================
+.vscode/
+.idea/
+*.code-workspace
+
+# ==========================================
+# Système
+# ==========================================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==========================================
+# SPMF / Java
+# ==========================================
+spmf.jar
+*.class
+*.log
+
+# ==========================================
+# Datasets téléchargés
+# ==========================================
+retail.txt
+chess.txt
+
+# Ajouter ici d'autres datasets si besoin
+# datasets/
+
+# ==========================================
+# Sorties générées par Apriori / expériences
+# ==========================================
+output*.txt
+retail_*.txt
+chess_*.txt
+results/
+outputs/
+
+# ==========================================
+# Fichiers temporaires / mesures
+# ==========================================
+*.tmp
+*.temp
+*.bak
+
+# ==========================================
+# Rapports Word temporaires
+# On garde volontairement les PDF finaux si souhaité
+# ==========================================
+*.docx
+~$*.docx
+
+# ==========================================
+# Secrets / variables locales
+# ==========================================
+.env
+.env.*
+!.env.example
